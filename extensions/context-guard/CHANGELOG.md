@@ -1,5 +1,14 @@
 # pi-mono-context-guard
 
+## 1.7.4
+
+### Patch Changes
+
+### Fixed
+
+- Clear the read deduplication cache before session compaction so files can be re-read after their earlier contents leave the model context.
+- Add a `context-guard:clear-cache` event for external cache invalidation.
+
 ## 1.7.3
 
 ### Patch Changes

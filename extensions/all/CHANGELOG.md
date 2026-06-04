@@ -1,5 +1,11 @@
 # pi-mono-all
 
+## 1.2.8
+
+### Patch Changes
+
+- Bundle `pi-mono-context-guard@1.7.4` with compaction-safe read dedup cache invalidation.
+
 ## 1.2.7
 
 ### Patch Changes
